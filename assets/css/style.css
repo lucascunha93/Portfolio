@@ -9,6 +9,18 @@ a {
     color: white;
 }
 
+a:link {
+    text-decoration: none;
+    border: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 .titulo {
     text-align: center;
     font-weight: bold;
@@ -19,10 +31,11 @@ p {
     font-family: 'Bree Serif', serif;
 }
 
+
 /* Barra de navegação */
 
 header {
-    height: 450px;
+    height: 30em;
     width: 100%;
     color: white;
     background: url("../img/header-fundo.jpg") no-repeat center;
@@ -57,10 +70,14 @@ header {
     border-bottom: 2px solid blue;
 }
 
+.active > a {
+    color: rgb(1, 112, 140);
+}
+
 .descricao-header {
     text-align: center;
     position: relative;
-    top: 45%;
+    top: 10em;
 }
 
 /* Conteudo sobre mim */
@@ -144,7 +161,7 @@ header {
 
 .img-conhecimento {
     width: 30%;
-    height: 100%;
+    height: auto;
     padding: 1em;
 }
 
@@ -166,9 +183,6 @@ header {
 /* Footer */
 
 .footer-area {
-    width: 100%;
-    color: white;
-    position: relative;
     background-color: rgba(0, 0, 0, 0.763);
     background-image: linear-gradient(135deg,
                         transparent,
@@ -179,21 +193,37 @@ header {
                         transparent);
     background-size: 20px 20px;
     background-attachment: fixed;
+    color: white;
     overflow: auto;
     text-align: center;
 }
 
+.conteudo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 4em 0 4em;
+}
+
 .conteudo-contato {
-    width: 33%;
-    height: auto;
-    float: left;
-    padding: 2em;
+   padding: 2em;
+}
+
+.espaco-lista {
+    padding-top: 1em;
+}
+
+.espaco-listas {
+    padding-top: 0.6em;
+}
+
+.conteudo-contato > ul > li {
+    
+   text-align: left;
 }
 
 .conteudo-info {
-    width: 33%;
-    height: auto;
-    float: left;
     padding: 2em;
 }
 
@@ -203,8 +233,5 @@ header {
 }
 
 .conteudo-site {
-    width: 33%;
-    height: auto;
-    float: left;
     padding: 2em;
 }
