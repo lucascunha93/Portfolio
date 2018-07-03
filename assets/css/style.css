@@ -1,3 +1,24 @@
+html, body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.0em;
+}
+
+/* Tipografia */
+
+a {
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 0.7em 0;
+}
+
+p {
+    font-family: 'Bree Serif', serif;
+}
+
 /* Barra de navegação */
 
 header {
@@ -11,7 +32,6 @@ header {
 }
 
 .container {
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,7 +39,7 @@ header {
 
 .logo {
     margin: 10px 10px 20px 10px;
-    height: 100px;
+    height: 6.50em;
     width: auto;
 }
 
@@ -27,12 +47,9 @@ header {
 .links {
     display: inline-block;
     text-transform: uppercase;
+    font-size: 1.10em;
     margin: 0 10px 0 0;
     padding: 2px 5px ;
-    color: white;
-}
-
-a {
     color: white;
 }
 
@@ -43,21 +60,21 @@ a {
 .descricao-header {
     text-align: center;
     position: relative;
-    top: 35%;
+    top: 45%;
 }
 
-
-/* Conteudo da página index */
+/* Conteudo sobre mim */
 
 .itens-area {
-     background: rgba(225, 225, 225, 0.638);
+    background: rgba(225, 225, 225, 0.638);
+    position: relative;
+    display: inline-block;
 }
 
 .itens {
     display: flex;
     align-items: center;
     justify-content: center;
-   
     margin-top: 50px;
 }
 
@@ -80,4 +97,114 @@ a {
     width: 70px;
     background-color: rgba(148, 148, 148, 0.507);
     border-radius: 50%;
+}
+
+.sobre-descricao {
+    padding: 2em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sobre-descricao > p {
+    text-indent: 3em;
+}
+
+/* Conhecimentos conteudo */
+
+.conhecimentos-area {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3em;
+    text-align: center;
+}
+
+.conhecimentos-conteudo {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.conhecimento-pad {
+    width: 50%;
+    padding: 1em;
+    display: flex;
+    float: left;
+}
+
+.conhecimento {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 0.1em 0.2em 1em;
+
+}
+
+.img-conhecimento {
+    width: 30%;
+    height: 100%;
+    padding: 1em;
+}
+
+.img-conhecimento > img {
+    height: 100%;
+    width: 100%;
+    padding: 0.4em;    
+    background-attachment: fixed;
+}
+
+.descricao-conhecimento {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    padding: 0.5em;
+}
+
+/* Footer */
+
+.footer-area {
+    width: 100%;
+    color: white;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.763);
+    background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, 0.1) 14px,
+                        rgba(0, 0, 0, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    overflow: auto;
+    text-align: center;
+}
+
+.conteudo-contato {
+    width: 33%;
+    height: auto;
+    float: left;
+    padding: 2em;
+}
+
+.conteudo-info {
+    width: 33%;
+    height: auto;
+    float: left;
+    padding: 2em;
+}
+
+.sociais > a{
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.conteudo-site {
+    width: 33%;
+    height: auto;
+    float: left;
+    padding: 2em;
 }

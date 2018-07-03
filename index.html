@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lucas Cunha - Desenvolvedor front-end</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/img/logo.png" >
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bree+Serif" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -22,7 +24,7 @@
                 <ul class="nav-links">
                     <li class="links active"><a href="index.html">Início</a></li>
                     <li class="links"><a href="#">Sobre</a></li>
-                    <li class="links"><a href="#">Portfólio</a></li>
+                    <li class="links"><a href="#">Conhecimentos</a></li>
                     <li class="links"><a href="#">Contato</a></li>
                 </ul>
             </nav>
@@ -34,8 +36,10 @@
     </header>
 
     <!--Conteudo da página-->
+
+    <!--Sobre-->
     <main>
-        <div class="itens-area">
+        <section class="itens-area">
             <div class="itens">
                 <div class="img-content">
                     <i class="fas fa-code"></i>
@@ -47,10 +51,98 @@
                     <i class="fas fa-pencil-alt"></i>
                 </div>
             </div>
-        </div>
+            <div class="sobre-descricao">
+                <h1 class="titulo"
+                >Sobre mim</h1>
+                <p>
+                    Iniciei na área programação em 2016 com intuito de gozar no emprego home office, já que essa área possibilita essa vantagem como também muitos outros benefícios. 
+                </p>
+                <p>
+                    Desde então venho buscando novos conhecimentos, assim como na parte visual que é o front-end e que eu mais gosto, como no back-end e assim como aperfeiçoando em ferramentas de que ajudam no desempenho do projeto, tais como SaaS e SEO. 
+                </p>
+                <p>
+                    Possuo alguns conhecimentos que julgo estar dominando como HTML5, CSS3 e JAVASCRIPT, também desenvolvi um projeto voluntário sem fins lucrativo na Ulbra Torres através do LDS (laboratório de desenvolvimento de software), por meio deste eu agreguei ao meu conhecimento o Angular 4x e posteriormente o Ionic.
+                </p>
+            </div>
+        </section>
+        <section class="conhecimentos-area">
+            <h1 class="titulo">Conhecimentos</h1>
+            <div class="conhecimentos-conteudo">
+                <div class="conhecimento-pad">
+                    <div class="conhecimento">
+                        <div class="img-conhecimento">
+                            <img src="assets/img/conhecimento/html5.png" alt="HTML5">
+                        </div>
+                        <div class="descricao-conhecimento">
+                            <p>HTML5 é a mais recente evolução do padrão que define o HTML.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conhecimento-pad">
+                    <div class="conhecimento">
+                        <div class="img-conhecimento">
+                            <img src="assets/img/conhecimento/css3.png" alt="HTML5">
+                        </div>
+                        <div class="descricao-conhecimento">
+                            <p>CSS3 é a segunda mais nova versão das famosas Cascading Style Sheets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conhecimento-pad">
+                    <div class="conhecimento">
+                        <div class="img-conhecimento">
+                            <img src="assets/img/conhecimento/javascript.png" alt="HTML5">
+                        </div>
+                        <div class="descricao-conhecimento">
+                            <p>JavaScript é uma linguagem de programação interpretada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conhecimento-pad">
+                    <div class="conhecimento">
+                        <div class="img-conhecimento">
+                            <img src="assets/img/conhecimento/angular.png" alt="HTML5">
+                        </div>
+                        <div class="descricao-conhecimento">
+                            <p>Angular é um framework JavaScript código aberto.</p>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </section>   
     </main>
     <footer>
-
+        <div class="footer-area">
+            <div class="conteudo">
+                <div class="conteudo-contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>(51)98200-1428</li>
+                        <li>oliveira.lucasc93@hotmail.com</li>
+                    </ul>
+                </div>
+                <div class="conteudo-info">
+                    <h3>O desenvolvedor</h3>
+                    <div class="descricao-info">
+                        <p>Sou desenvolvedor front-end Jr, porem autoditada e busco sempre aprimorar meus codes.</p>
+                    </div>
+                    <div class="sociais">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="conteudo-site">
+                <h3>Site</h3>
+                <ul>
+                    <li>Início</li>
+                    <li>Sobre</li>
+                    <li>Portfólio</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
