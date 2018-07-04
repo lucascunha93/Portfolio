@@ -1,0 +1,12 @@
+.spriteangular, .spritebootstrap, .spritecss3, .spritehtml5, .spriteionic, 
+.spritejavascript, .spritemysql, .spritephp
+{ display: inline-block; background: url('../img/conhecimento/sprite-conhecimento.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.spriteangular { background-position: -0px -0px; width: 150px; height: 150px; }
+.spritebootstrap { background-position: -150px -0px; width: 150px; height: 150px; }
+.spritecss3 { background-position: -0px -150px; width: 150px; height: 150px; }
+.spritehtml5 { background-position: -150px -150px; width: 150px; height: 150px; }
+.spriteionic { background-position: -0px -300px; width: 150px; height: 150px; }
+.spritejavascript { background-position: -150px -300px; width: 150px; height: 150px; }
+.spritemysql { background-position: -0px -450px; width: 150px; height: 150px; }
+.spritephp { background-position: -150px -450px; width: 150px; height: 150px; }

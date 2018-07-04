@@ -11,21 +11,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/conhecimento.css" />
 </head>
 <body>
     <!--Barra de navegação-->
     <header>
-        <div class="container">
+        <div id="inicio" class="container">
             <div class="logo">
                 <img class="logo" src="assets/img/logo.png" alt="logo-barra-navegacao">
             </div>
             
             <nav>
                 <ul class="nav-links">
-                    <li class="links active"><a href="index.html">Início</a></li>
-                    <li class="links"><a href="#">Sobre</a></li>
-                    <li class="links"><a href="#">Conhecimentos</a></li>
-                    <li class="links"><a href="#">Contato</a></li>
+                    <li class="links active"><a href="#inicio">Início</a></li>
+                    <li class="links"><a href="#sobre">Sobre</a></li>
+                    <li class="links"><a href="#conhecimentos">Conhecimentos</a></li>
+                    <li class="links"><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,7 +40,7 @@
 
     <!--Sobre-->
     <main>
-        <section class="itens-area">
+        <section id="sobre" class="itens-area">
             <div class="itens">
                 <div class="img-content">
                     <i class="fas fa-code"></i>
@@ -65,14 +66,12 @@
                 </p>
             </div>
         </section>
-        <section class="conhecimentos-area">
+        <section id="conhecimentos" class="conhecimentos-area">
             <h1 class="titulo">Conhecimentos</h1>
             <div class="conhecimentos-conteudo">
                 <div class="conhecimento-pad">
                     <div class="conhecimento">
-                        <div class="img-conhecimento">
-                            <img src="assets/img/conhecimento/html5.png" alt="HTML5">
-                        </div>
+                        <div class="spritehtml5 img-conhecimento"></div>
                         <div class="descricao-conhecimento">
                             <p>HTML5 é a mais recente evolução do padrão que define o HTML.</p>
                         </div>
@@ -80,9 +79,7 @@
                 </div>
                 <div class="conhecimento-pad">
                     <div class="conhecimento">
-                        <div class="img-conhecimento">
-                            <img src="assets/img/conhecimento/css3.png" alt="HTML5">
-                        </div>
+                        <div class="spritecss3 img-conhecimento"></div>
                         <div class="descricao-conhecimento">
                             <p>CSS3 é a segunda mais nova versão das famosas Cascading Style Sheets.</p>
                         </div>
@@ -90,9 +87,7 @@
                 </div>
                 <div class="conhecimento-pad">
                     <div class="conhecimento">
-                        <div class="img-conhecimento">
-                            <img src="assets/img/conhecimento/javascript.png" alt="HTML5">
-                        </div>
+                        <div class="spritejavascript img-conhecimento"></div>
                         <div class="descricao-conhecimento">
                             <p>JavaScript é uma linguagem de programação interpretada.</p>
                         </div>
@@ -100,9 +95,7 @@
                 </div>
                 <div class="conhecimento-pad">
                     <div class="conhecimento">
-                        <div class="img-conhecimento">
-                            <img src="assets/img/conhecimento/angular.png" alt="HTML5">
-                        </div>
+                        <div class="spriteangular img-conhecimento"></div>
                         <div class="descricao-conhecimento">
                             <p>Angular é um framework JavaScript código aberto.</p>
                         </div>
@@ -127,9 +120,9 @@
                         <p class="espaco-lista">Sou desenvolvedor front-end Jr, porem incansável e busco sempre aprimorar meus codes.</p>
                     </div>
                     <div class="sociais">
-                        <a href="https://www.facebook.com/cunha.lucas93"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://github.com/lucascunha93"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/cunha93/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/cunha.lucas93" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://github.com/lucascunha93" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/cunha93/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="conteudo-site">
