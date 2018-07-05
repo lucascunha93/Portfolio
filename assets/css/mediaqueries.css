@@ -1,0 +1,32 @@
+/* MEDIA QUERIES 
+*********************/
+
+@media screen and ( max-width: 1000px ){
+    .conhecimentos-conteudo {
+        width: 100%;
+    }
+
+    .conteudo-footer {
+        flex-direction: column
+    }
+}
+
+@media screen and ( max-width: 800px ){
+    .conhecimento-pad {
+        width: 100%;
+        min-width: 210px;
+    }
+    .descricao-conhecimento {
+        min-width: 0;
+    }
+
+    .conteudo-footer {
+        padding: 0.3em;
+        justify-content: center;
+    }
+
+    .conteudo-contato, .conteudo-info, .conteudo-site {
+        padding: 0;
+        padding-top: 0.5em;
+    }
+}

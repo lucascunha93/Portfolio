@@ -1,0 +1,46 @@
+/* CONTEUDO DA SECTION SOBRE 
+********************************/
+
+.sobre-area {
+    background: rgba(225, 225, 225, 0.638);
+    position: relative;
+    display: inline-block;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imagem {
+    padding: 30px;
+    text-align: center;
+}
+
+.imagem > img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+.img-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(148, 148, 148, 0.507);
+    border-radius: 50%;
+}
+
+.sobre-descricao {
+    padding: 2em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sobre-descricao > p {
+    text-indent: 3em;
+}

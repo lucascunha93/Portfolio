@@ -3,7 +3,8 @@ html, body {
     font-size: 1.0em;
 }
 
-/* Tipografia */
+/* TIPOGRAFIA 
+****************/
 
 a {
     color: white;
@@ -32,7 +33,8 @@ p {
 }
 
 
-/* Barra de navegação */
+/* BARRA DE NAVEGAÇÃO 
+**************************/
 
 header {
     height: 30em;
@@ -80,107 +82,8 @@ header {
     top: 10em;
 }
 
-/* Conteudo sobre mim */
-
-.itens-area {
-    background: rgba(225, 225, 225, 0.638);
-    position: relative;
-    display: inline-block;
-}
-
-.itens {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.imagem {
-    padding: 30px;
-    text-align: center;
-}
-
-.imagem > img {
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-}
-
-.img-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-    width: 70px;
-    background-color: rgba(148, 148, 148, 0.507);
-    border-radius: 50%;
-}
-
-.sobre-descricao {
-    padding: 2em;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.sobre-descricao > p {
-    text-indent: 3em;
-}
-
-/* Conhecimentos conteudo */
-
-.conhecimentos-area {
-    width: 100%;
-    margin: 0 auto;
-    padding: 3em;
-    text-align: center;
-}
-
-.conhecimentos-conteudo {
-    width: 80%;
-    position: relative;
-    margin: 0 auto;
-    overflow: auto;
-}
-
-.conhecimento-pad {
-    width: 50%;
-    padding: 1em;
-    display: flex;
-    float: left;
-}
-
-.conhecimento {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    border: 1px solid rgb(100, 100, 100);
-    box-shadow: 0.1em 0.2em 1em;
-
-}
-
-.img-conhecimento {
-    width: 30%;
-    height: auto;
-    padding: 1em;
-}
-
-.img-conhecimento > img {
-    height: 100%;
-    width: 100%;
-    padding: 0.4em;    
-    background-attachment: fixed;
-}
-
-.descricao-conhecimento {
-    display: flex;
-    align-items: center;
-    width: 70%;
-    height: 100%;
-    padding: 0.5em;
-}
-
-/* Footer */
+/* FOOTER
+*************/
 
 .footer-area {
     background-color: rgba(0, 0, 0, 0.763);
@@ -200,10 +103,11 @@ header {
 
 .conteudo-footer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 0 4em 0 4em;
+    padding: 0 9em 0 9em;
 }
 
 .conteudo-contato {
@@ -225,6 +129,7 @@ header {
 
 .conteudo-info {
     padding: 2em;
+    max-width: 400px;;
 }
 
 .sociais > a{
@@ -235,3 +140,17 @@ header {
 .conteudo-site {
     padding: 2em;
 }
+
+/* SPRITE DE IMAGEM PARA A PÁGINA
+************************************/
+
+.spriteheader-fundo, .spriteimagem-dev, .spritelogo, .spritelogo-footer{ 
+    max-width: 100%; 
+    background-size: 100%; 
+    background-image: url('../img/sprite-index.png'); 
+}
+ 
+.spriteheader-fundo { background-position: 0 0%; background-size: 100%; }
+.spriteimagem-dev { background-position: 0 70.588235%; background-size: 640%; }
+.spritelogo { background-position: 0 90.396927%; background-size: 640%; }
+.spritelogo-footer { background-position: 0 100%; background-size: 1280%; }
