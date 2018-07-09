@@ -58,6 +58,23 @@ header {
     width: auto;
 }
 
+.navegacao-label {
+    display: none;
+    font-size: 2em;
+    padding: 0 0.3em 0 0.3em;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.navegacao-label:hover {
+    background-color: rgb(1, 112, 140);
+}
+
+.navegacao-checkbox {
+    display: none;
+}
+
 
 .links {
     display: inline-block;

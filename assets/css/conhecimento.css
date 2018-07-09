@@ -40,6 +40,12 @@
 .img-area {
     min-width: 105px;
     height: auto;
+
+    transition: 1s;
+}
+
+.img-area:hover {
+    transform: rotate3d(1, 0, 0, 360deg);
 }
 
 .img-conhecimento {
@@ -52,8 +58,8 @@
 .img-conhecimento > img {
     height: 100%;
     width: 100%;
-    padding: 0.4em;    
-    background-attachment: fixed;
+    padding: 0.4em;
+
 }
 
 .descricao-conhecimento {
@@ -74,9 +80,9 @@
     background: url('../img/conhecimento/sprite-conhecimento.png') no-repeat; 
     overflow: hidden; 
     text-indent: -9999px; 
-    text-align: left; 
+    text-align: left;
 }
- 
+
 .spriteangular { background-position: -0px -0px; width: 150px; height: 150px; }
 .spritebootstrap { background-position: -150px -0px; width: 150px; height: 150px; }
 .spritecss3 { background-position: -0px -150px; width: 150px; height: 150px; }

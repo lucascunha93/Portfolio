@@ -12,6 +12,10 @@
 }
 
 @media screen and ( max-width: 800px ){
+    .sobre-descricao {
+        width: 100%;
+    }
+
     .conhecimento-pad {
         width: 100%;
         min-width: 210px;
@@ -28,5 +32,27 @@
     .conteudo-contato, .conteudo-info, .conteudo-site {
         padding: 0;
         padding-top: 0.5em;
+    }
+}
+
+@media screen and ( max-width: 450px ) {
+    .navegacao-label {
+        display: initial;
+    }
+    .nav-links {
+        overflow: hidden;
+        height: 0;
+
+        transition: all 2s ease;
+    }
+
+    .navegacao-checkbox:checked + .nav-links {
+        height: auto;
+        font-size: 2em;
+        background-color: black;
+    }
+
+    .nav-links > li {
+        display: block;
     }
 }
