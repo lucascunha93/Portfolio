@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/conhecimento.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/sobre.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contato.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/mediaqueries.css" />
 
 </head>
@@ -45,34 +46,35 @@
 
     <!--Conteudo da página-->
 
-    <!--Sobre-->
     <main>
+        <!--Sobre-->
         <section id="sobre" class="sobre-area">
             <div class="itens">
                 <div class="img-content">
                     <i class="fas fa-code"></i>
                 </div>
                 <div class="imagem">
-                    <img class="spriteimagem-dev" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAFMAQMAAABLRxNsAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAACNJREFUeNrtwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAADgMzKUAAG5YxR+AAAAAElFTkSuQmCC" alt="imagem do desenvolvedor">
+                    <img src="assets/img/imagem-dev.png" alt="imagem do desenvolvedor">
                 </div>
                 <div class="img-content">
                     <i class="fas fa-pencil-alt"></i>
                 </div>
             </div>
             <div class="sobre-descricao">
-                <h1 class="titulo"
-                >Sobre mim</h1>
+                <h1 class="titulo">Sobre mim</h1>
                 <p>
-                    Iniciei na área programação em 2016 com intuito de gozar no emprego home office, já que essa área possibilita essa vantagem como também muitos outros benefícios. 
+                    Iniciei na área programação em 2016 com intuito de usufruir no emprego home office, já que essa área possibilita essa vantagem como também muitos outros benefícios. 
                 </p>
                 <p>
                     Desde então venho buscando novos conhecimentos, assim como na parte visual que é o front-end e que eu mais gosto, como no back-end e assim como aperfeiçoando em ferramentas de que ajudam no desempenho do projeto, tais como SaaS e SEO. 
                 </p>
                 <p>
-                    Possuo alguns conhecimentos que julgo estar dominando como HTML5, CSS3 e JAVASCRIPT, também desenvolvi um projeto voluntário sem fins lucrativo na Ulbra Torres através do LDS (laboratório de desenvolvimento de software), por meio deste eu agreguei ao meu conhecimento o Angular 4x e posteriormente o Ionic.
+                    Possuo alguns conhecimentos que julgo estar dominando e utilizando com segurança como HTML5, CSS3 e JAVASCRIPT, também desenvolvi um projeto voluntário sem fins lucrativo na Ulbra Torres através do LDS (laboratório de desenvolvimento de software), por meio deste eu agreguei ao meu conhecimento o Angular 4x e posteriormente o básico de Ionic.
                 </p>
             </div>
         </section>
+
+        <!--Conhecimentos-->
         <section id="conhecimentos" class="conhecimentos-area">
             <h1 class="titulo">Conhecimentos</h1>
             <div class="conhecimentos-conteudo">
@@ -117,8 +119,44 @@
                     </div>
                 </div>              
             </div>
-        </section>   
+        </section>
+        
+        <!--Contato-->
+        <section id="contato" class="contato-area">
+            <h1>Entre em contato</h1>
+            <hr class="linha">
+            <div class="formulario-area">
+                <form method="POST" action="" autocomplete="on">
+                    <div class="formulario">  
+                        <div class="caixa">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" placeholder="seu nome" required>
+                        </div>
+                        <div class="caixa">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="seu email" required>
+                        </div>
+                        <div class="caixa">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" placeholder="ex: Montar uma equipe" required>
+                        </div>
+                        <div class="caixa">
+                            <label for="numero">Telefone(opcional)</label>
+                            <input type="text" id="numero" placeholder="(xx) x xxxx - xxxx">
+                        </div>
+                    </div>
+                    <div class="caixa-texto">   
+                        <textarea required placeholder="Descreva mais sobre o assunto..."></textarea>
+                    </div> 
+                    <div class="btn-formulario">
+                        <button class="botao-enviar" >Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
+
+    <!--Footer-->
     <footer>
         <div class="footer-area">
             <div class="conteudo-footer">

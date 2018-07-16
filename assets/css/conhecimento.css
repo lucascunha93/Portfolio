@@ -7,6 +7,10 @@
     margin: 0 auto;
     padding: 3em;
     text-align: center;
+    color: white;
+    background: url("../img/header-fundo.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .conhecimentos-conteudo {
@@ -22,18 +26,19 @@
     width: 50%;
     min-width: 350px;
     padding: 1em;
-   
 }
 
 .conhecimento {
     width: 100%;
     height: auto;
+    background-color: rgba(255, 255, 255, 0.905);
+    color: black;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border: 1px solid rgb(100, 100, 100);
-    box-shadow: 0.1em 0.2em 1em;
+    box-shadow: 0.1em 0.2em 1em #00A0C6;
 
 }
 

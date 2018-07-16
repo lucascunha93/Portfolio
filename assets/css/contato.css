@@ -1,0 +1,79 @@
+/* SECTION CONTATO CONTEUDO 
+***********************************/
+
+.contato-area {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 4em;
+    background-color: rgba(0, 0, 0, 0.763);
+    background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, 0.1) 14px,
+                        rgba(0, 0, 0, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    color: white;
+    overflow: auto;
+}
+
+.formulario-area {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 150px;
+    padding: 0.2em 1em 0.2em 1em;
+}
+
+.caixa input {
+    width: 100%;
+}
+
+.caixa-texto {
+    width: 100%;
+    padding: 1.5em 1em;
+}
+
+textarea {
+    width: 100%;
+}
+
+.btn-formulario {
+    display: block;
+    text-align: center;
+}
+
+.botao-enviar {
+    width: 30%;
+    background-color: rgb(0, 163, 41);
+    border: 1px solid rgba(255, 255, 255, 0.556);
+    border-radius: 5px;
+    color: white;
+}
+
+.botao-enviar:hover {
+    background-color: rgb(8, 163, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.botao-enviar:focus {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+}

@@ -32,6 +32,28 @@ p {
     font-family: 'Bree Serif', serif;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+
+hr {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.linha {
+    width: 10%;
+    min-width: 100px;
+    height: 0.8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+}
 
 /* BARRA DE NAVEGAÇÃO 
 **************************/
@@ -43,7 +65,6 @@ header {
     background: url("../img/header-fundo.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 .container {
@@ -103,16 +124,7 @@ header {
 *************/
 
 .footer-area {
-    background-color: rgba(0, 0, 0, 0.763);
-    background-image: linear-gradient(135deg,
-                        transparent,
-                        transparent 14px,
-                        rgba(0, 0, 0, 0.1) 14px,
-                        rgba(0, 0, 0, 0.1) 15px,
-                        transparent 15px,
-                        transparent);
-    background-size: 20px 20px;
-    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.926);
     color: white;
     overflow: auto;
     text-align: center;
@@ -157,6 +169,7 @@ header {
 .conteudo-site {
     padding: 2em;
 }
+
 
 /* SPRITE DE IMAGEM PARA A PÁGINA
 ************************************/
