@@ -61,10 +61,23 @@ hr {
 header {
     height: 30em;
     width: 100%;
-    color: white;
+    color: rgba(255, 255, 255, 0.755);
     background: url("../img/header-fundo.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+
+.nav-scroll{
+    background-color: rgba(0, 0, 0, 0.837);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.652);
 }
 
 .container {

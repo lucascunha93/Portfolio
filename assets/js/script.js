@@ -1,3 +1,20 @@
+const navbar = document.querySelector('.nav');
+const classnav = 'nav-scroll';
+
+function scrollBar() {
+    const windowTop = window.pageYOffset; 
+    if (windowTop > 360) {
+        navbar.classList.add(classnav);
+    }
+    else{
+        navbar.classList.remove(classnav);
+    }
+}
+
+window.addEventListener('scroll', function() {
+    scrollBar();
+})
+
 const titulo = document.querySelector(".descricao-header > h1 ");
 const subtitulo = document.querySelector(".descricao-header > p ");
 
